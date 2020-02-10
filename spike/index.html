@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ========================= LAWSON'S WEBSITE ======================= -->
+                                  <!-- HOME PAGE -->
+<!-- ======================== POWER SPIKE WEBSITE ========================= -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Lawson Ezekiel Michael" content="Power Spike">
+    <!-- <=====Responsive meta tag=====> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <=====Bootstrap css =====> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- =====CSS ANIMATION=====> -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- =====MY ICON LINK===== -->
+    <link rel="icon" href="image/favicon.ico">
+    <!-- <===== Fonts Link =====> -->
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- <=====Bootstrap CSS =====>  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <=====  Main CSS =====> -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <=====googleapis fonts =====> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+    <!-- <===== Title of my website=====> -->
+    <title>MEDISEEN</title>
+</head>
+
+<body>
+    <!-- ========== BEGINING OF NAVBAR ========== -->
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" aria-label="breadcrumb" role="navigation">
+            <a class="navbar-brand ml-2" href="#"><img src="image/logo.png" class="img-fluid"
+                    alt="Responsive image"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-bottom: 8px;">
+                <ul class="navbar-nav ml-auto pt-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Drugs</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown- pb-2" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Effects<span class=" icon-chevron-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fresh Products</a>
+                            <a class="dropdown-item" href="#">Dry Products</a>
+                        </div>
+                    </li>
+
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown- pb-2" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Get Started<span class=" icon-chevron-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Fresh Products</a>
+                            <a class="dropdown-item" href="#">Dry Products</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-warning btn-sm" href="#" data-toggle="modal" data-target="#exampleModal" class="text-white">
+                            Log In <span class="icon-login"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- <==========END OF NAVBAR==========> -->
+    <!-- modals -->
+    <!-- log in -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center">LOG IN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control" value="Log in">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="custom-control custom-checkbox mr-sm-2">
+                                <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                <label class="custom-control-label" for="customControlAutosizing">Remember me?</label>
+                            </div>
+                        </div>
+                        <p class="text-center dont-have mt-3">Don't have an account?
+                            <a href="#" data-toggle="modal" data-target="#exampleModal2">
+                                Register Now</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- register -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Register</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST">
+                        <div class="form-group">
+                            <label class="col-form-label">Your Name</label>
+                            <input type="text" class="form-control" placeholder=" " name="Name" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Email</label>
+                            <input type="email" class="form-control" placeholder=" " name="Email" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password" id="password1"
+                                required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Confirm Password</label>
+                            <input type="password" class="form-control" placeholder=" " name="Confirm Password"
+                                id="password2" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input type="submit" class="form-control" value="Register">
+                        </div>
+                        <div class="sub-w3l">
+                            <div class="custom-control custom-checkbox mr-sm-2">
+                                <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+                                <label class="custom-control-label" for="customControlAutosizing2">I Accept to the Terms
+                                    &amp; Conditions</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <===== MODAL =====> -->
+    <!-- <===== TOP HEADER=====> -->
+    <!-- =====BEGINING OF SECTION===== -->
+    <section class="section mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Hassle-free Twitch Influencer Marketing, that scales.</h1>
+                    <p class="scrap">Scrap the databases and everyday influencer platforms - PowerSpike<br> is the media buying solution for esports & gaming inuencers.
+                        </p>
+                        <button type="button" class="btn btn-primary">I'm a Brand</button>
+                        <button type="button" class="btn btn-warning">I'm a Streamer</button>
+
+                </div>
+                <div class="col-md-6 mb-4">
+                        <img src="image/pop1.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+</body>
+
+</html>
